@@ -1,8 +1,9 @@
-1) Criar entidades em "src/Acme/DemoBundle/Resources/config/doctrine/<<Entity>>.orm.xml"
-
+0) Criar base de dados:
+    app/console doctrine:database:create
+1) Criar entidades em:
+    src/Acme/DemoBundle/Resources/config/doctrine/<<Entity>>.orm.xml
 2) PARA GERAR ENTIDADES:
-
-app/console doctrine:generate:entities AcmeDemoBundle
+    app/console doctrine:generate:entities AcmeDemoBundle
 
 
 
